@@ -1,7 +1,7 @@
 .hero {
   padding: 128px 0;
   background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
-    url("../../img/home-hero.jpeg");
+    url("../img/home-hero.jpeg");
   .container {
     .card {
       width: 100%;
@@ -281,7 +281,7 @@ form {
 .callToAction {
   .container {
     max-width: 1109px;
-    background-image: url("../../img/Calltoaction.jpeg");
+    background-image: url("../img/Calltoaction.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 472px;
