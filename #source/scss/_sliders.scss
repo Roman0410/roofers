@@ -1,0 +1,195 @@
+.slider {
+  padding-bottom: 65px;
+  position: relative;
+}
+.commercial {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .section-title {
+  }
+  .text {
+  }
+}
+
+.commercial-slider {
+  padding-bottom: 65px;
+  position: relative;
+}
+.commercial-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  img {
+    width: 100%;
+    height: 246px;
+  }
+  .card-title {
+  }
+  .btn {
+    display: block;
+  }
+}
+
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+  margin: 0 -8px;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+.reviews-slider .slick-track {
+}
+/* Слайд */
+.slick-slide {
+  margin: 0 8px;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+  width: 49.3%;
+  left: 0;
+  padding: 16px;
+  background-color: var(--background-accent);
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+  max-width: 49.3%;
+  width: 100%;
+  right: 0;
+  padding: 16px;
+  background-color: black;
+  color: #fff;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
+
+.reviews {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .section-title {
+  }
+  .reviews-slider {
+  }
+  .slider {
+  }
+  .review-slide {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .rate {
+    display: flex;
+    gap: 10px;
+  }
+  .text {
+  }
+  .card-title {
+  }
+  .review-author {
+  }
+  .btn {
+  }
+}
+.gallery {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .section-title {
+  }
+  .text {
+  }
+  .gallery-slider {
+  }
+  .slider {
+  }
+  .gallery-slide {
+    img {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+    }
+  }
+}
+.otherServices {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section-title {
+  }
+  .otherServices-slider {
+  }
+  .slider {
+  }
+  .otherServices-slide {
+    img {
+      height: 164px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    p {
+      cursor: pointer;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .item-title {
+  }
+}
