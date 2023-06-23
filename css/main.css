@@ -397,9 +397,9 @@ header {
       from(#000000),
       to(rgba(0, 0, 0, 0))
     ),
-    url("../../img/home-hero.jpeg");
+    url("../img/home-hero.jpeg");
   background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
-    url("../../img/home-hero.jpeg");
+    url("../img/home-hero.jpeg");
 }
 .hero .container .card {
   width: 100%;
@@ -818,7 +818,7 @@ form textarea::placeholder {
 }
 .callToAction .container {
   max-width: 1109px;
-  background-image: url("../../img/Calltoaction.jpeg");
+  background-image: url("../img/Calltoaction.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 472px;
